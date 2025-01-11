@@ -1,9 +1,12 @@
-<h1>JWipe - Disk Sanitization</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1>Team Github Utilization and Compliance</h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+The objective of this project is to assess the effectiveness of utilizing GitHub as the team's code repository and review tool.  The team has established protocols that require the submission of pull requests and subsequent code reviews under specific circumstances.  This analysis aims to compare the expected number of pull requests and internal cases requiring such submissions, against the actual number of pull requests and reviews conducted.  Ultimately, this project seeks to evaluate the team's adherence to the established processes for code repository usage and code review practices.
+
+To successfully complete this project, I employ a Python script that interacts with the GitHub Rest API.  By iterating through four endpoints over two repositories, I extract unstructured data pertaining to commits, pull requests, and review comments.  The data is then compiled into structured dataframes, and the output is eventually transferred to an Excel spreadsheet.  This spreadsheet loads into PowerBI where the data goes through an in depth process of transformation and manipulation using PowerQuery.  Utilizing clean data,      
+
+Project Questions:
+  - 
 <br />
 
 
