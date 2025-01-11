@@ -6,7 +6,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 <h2>Project Questions</h2>
 - How has the team's usage of GitHub changed over time?  What is the trend over the past ___ quarters or years? Is there a reason for this? <br>
 - Are we utilizing Github as our code review tool as intended, or are we defaulting to other tools and methods? <br>
-- How does the number of internal cases requiring a code review submission compare to the actual number of pull requests? Which cases didn't have a pull request that should've? <br>
+- How does the number of internal cases requiring a code review submission compare to the actual number of pull requests? Which cases didn't have a pull request that should have? <br>
 - Are there certain types of internal cases that are more susceptible to not receiving a pull request?  Why is this? <br> 
 - How many commits are pushed per pull request, on average? Are we commiting new code after it has been reviewed by the team? <br>
 - Are there pull requests that have not been reviewed and have no comments on them?  How many comments or reviewers does each pull request receive, on average? <br>
