@@ -4,6 +4,7 @@
 The objective of this project is to assess the effectiveness of utilizing GitHub as the team's code repository and review tool.  The team has established protocols that require the submission of pull requests and subsequent code reviews under specific circumstances.  This analysis aims to compare the expected number of pull requests and internal cases requiring such submissions, against the actual number of pull requests and reviews conducted.  Ultimately, this project seeks to evaluate the team's adherence to the established processes for code repository usage and code review practices.
 
 <h2>Project Questions</h2> 
+  -  qwfwevw
 - How has the team's usage of GitHub changed over time?  What is the trend over the past ___ quarters or years? Is there a reason for this? <br>
 - Are we utilizing Github as our code review tool as intended, or are we defaulting to other tools and methods? <br>
 - How does the number of internal cases requiring a code review submission compare to the actual number of pull requests? Which cases didn't have a pull request that should have? <br>
@@ -17,7 +18,8 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
      
 <h2>Process and Tools</h2> 
 
-  -  To successfully complete this project, I employ a Python script that interacts with the GitHub Rest API.  By iterating through four endpoints over two repositories, I extract unstructured data pertaining to commits, pull requests, and review comments.  The data is then compiled into structured dataframes, and the output is eventually transferred to an Excel spreadsheet.  This spreadsheet loads into PowerBI where the data goes through an in depth process of transformation and manipulation using PowerQuery.  Utilizing clean data, 
+  -  To successfully complete this project, I employ a Python script that interacts with the GitHub Rest API.  By iterating through four endpoints over two repositories, I extract unstructured data pertaining to commits, pull requests, and review comments.  The data is then compiled into structured dataframes, and the output is eventually transferred to an Excel spreadsheet.  This spreadsheet loads into PowerBI where the data goes through an in depth process of transformation and manipulation using PowerQuery.  Utilizing clean data,
+  -   
 <br />
 
 
