@@ -11,9 +11,9 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 - How many commits are pushed per pull request, on average? Are we commiting new code after it has been reviewed by the team? <br>
 - Are there pull requests that have not been reviewed and have no comments on them?  How many comments or reviewers does each pull request receive, on average? <br>
 - Who is contributing the most to the health of our repositories?  Who is not following our established protocols for code reviews? <br>
-- Is code actually being merged when finallized? <br>
-- What type of contributions does the team need to improve? For example, are we good at leaving reviews on code but bad about committing new code after a review? <br>
-- Is the lack of contribution to the repository because of a training or process gap?  How can we fill this gap and support eachother better as a team? <br>
+     - Is code actually being merged when finallized? <br>
+     - What type of contributions does the team need to improve? For example, are we good at leaving reviews on code but bad about committing new code after a review? <br>
+     - Is the lack of contribution to the repository because of a training or process gap?  How can we fill this gap and support eachother better as a team? <br>
      
 
 Project Questions:
