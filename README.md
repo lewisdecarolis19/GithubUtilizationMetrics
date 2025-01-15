@@ -17,7 +17,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 
 <h2>Process and Tools</h2>
 
-1- A Python script, developed in Jupyter Notebooks, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
+- A Python script, developed in Jupyter Notebooks, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
 
 
 
