@@ -5,7 +5,6 @@ from pandas import json_normalize #Allows json to be normallized into flat table
 import pandas as pd               #Data analysis tools, structures (dataframes)
 
 
-
 #Make a request for a session for the REST API using our token
 
 #Store parameters for our requested session
@@ -83,8 +82,6 @@ for x in range(len(endpoints)):       #Begins the for loop for each of our endpo
     #End of the Endpoint for loop.  Anything outside of the loop should not be tabbed or spaced in
 
 
-
-
 #Manipulate the contributors dataframe
 
 #Pull the contributors from our list of dataframes - First dataframe in the list
@@ -94,8 +91,6 @@ df_contributor  = dataframes[0]
 #Group our records by the user_id.  We groupby three columns because each will be unique by user, and we want to keep all of them.  The rest of the columns will be dropped
 #We then aggregate the contributions column by user, adding the contributions in both repos per user together
 df_contributors = df_contributor.groupby(['id', 'login', 'node_id'])['contributions'].agg('sum')
-
-
 
 
 #Manipulate the commits dataframe
@@ -116,8 +111,6 @@ df_commit['commit_day_of_week'] = df_commit['date'].dt.dayofweek
 df_commits = df_commit.drop('date', axis=1)
 
 
-
-
 #Manipulate the pull requests dataframe
 
 #Pull the PRs from our list of dataframes - Third dataframe in the list
@@ -134,8 +127,6 @@ df_pull['pr_day_of_week'] = df_pull['date'].dt.dayofweek
 
 #Drop the datetime column, cannot write an excel file with timezone in datetime column
 df_pulls = df_pull.drop('date', axis=1)
-
-
 
 
 #Manipulate the pull request comments dataframe
@@ -156,17 +147,14 @@ df_pull_comments['comment_day_of_week'] = df_pull_comments['date'].dt.dayofweek
 df_pull_comments = df_pull_comments.drop('date', axis=1)
 
 
-
-
 #Writes to a single excel file.  Each df becomes its own sheet in the excel file
-
 with pd.ExcelWriter('filepath/github_data.xlsx') as writer:  
      df_contributors.to_excel(writer, sheet_name='Contributors') 
      df_commits.to_excel(writer, sheet_name='Commits')
      df_pulls.to_excel(writer, sheet_name='Pull Requests')
      df_pull_comments.to_excel(writer, sheet_name='PR Comments')
  
-    #prcomments_df.to_excel(writer, sheet_name='PR Comments')
+
 
 
 
