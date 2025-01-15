@@ -15,11 +15,11 @@ gh_session      = requests.Session()
 gh_session.auth = ('username', 'bearer_token')   
 
 github_api      = 'https://api.github.com'
-owner           = 'dmsi-io'
+owner           = 'owner'
 page_number     = 1
 
 #Repos are in a list so that we can loop through.  This will be the inner part of our nested loops
-repos           = ['custom_cyberquery','adhoc_pes']
+repos           = ['repo1','repo2']
 
 #Github_api variable contains {} signifying dynamic parameters will be placed here in the upcoming functions
 #Endpoints are in a list so we can loop through all of them
@@ -160,7 +160,7 @@ df_pull_comments = df_pull_comments.drop('date', axis=1)
 
 #Writes to a single excel file.  Each df becomes its own sheet in the excel file
 
-with pd.ExcelWriter('C:/Users/ldecarolis/DMSI/Data Services - Documents/GitHub/API/github_data.xlsx') as writer:  
+with pd.ExcelWriter('myfilepath/github_data.xlsx') as writer:  
      df_contributors.to_excel(writer, sheet_name='Contributors') 
      df_commits.to_excel(writer, sheet_name='Commits')
      df_pulls.to_excel(writer, sheet_name='Pull Requests')
