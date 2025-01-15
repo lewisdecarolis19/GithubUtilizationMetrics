@@ -36,7 +36,12 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 <h2>Results and Conclusions 📈</h2>
 
 
-<h2>What I Learned 👨‍🎓</h2>
+<h2>Project Files 📄</h2>
+
+
+<h2>References</h2>
+
+
 
 
 <h2>Program walk-through:</h2>
