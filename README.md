@@ -4,8 +4,6 @@
 The objective of this project is to assess the effectiveness of utilizing GitHub as the team's code repository and review tool.  The team has established protocols that require the submission of pull requests and subsequent code reviews under specific circumstances.  This analysis aims to compare the expected number of pull requests and internal cases requiring such submissions, against the actual number of pull requests and reviews conducted.  Ultimately, this project seeks to evaluate the team's adherence to the established processes for code repository usage and code review practices.
 
 <h2>Project Questions</h2> 
-  -  socijwd
-
   -  How has the team's usage of GitHub changed over time?  What is the trend over the past ___ quarters or years? Is there a reason for this?
   -  Are we utilizing Github as our code review tool as intended, or are we defaulting to other tools and methods?
   -  How does the number of internal cases requiring a code review submission compare to the actual number of pull requests? Which cases didn't have a pull request that should have?
@@ -18,7 +16,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
   -  Is the lack of contribution to the repository because of a training or process gap?  How can we fill this gap and support eachother better as a team?
 
 <h2>Process and Tools</h2>
-
+  -  Is the lack of contribution to the repository because of a training or process gap?  How can we fill this gap and support eachother better as a team?
   - A Python script, developed in Jupyter Notebooks, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
 
 
