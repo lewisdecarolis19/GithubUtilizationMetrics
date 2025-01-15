@@ -16,10 +16,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
   -  Is the lack of contribution to the repository because of a training or process gap?  How can we fill this gap and support eachother better as a team?
 
 <h2>Process and Tools</h2>
-  *  ervrr
 
-
-  
 - A Python script, developed in Jupyter Notebooks, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
 
 
