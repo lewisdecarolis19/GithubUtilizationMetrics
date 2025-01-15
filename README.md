@@ -19,21 +19,25 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 
 <h2>Process and Tools</h2>
 
-- A Python script, developed in Jupyter Notebooks, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
+- A <b>Python</b> script, developed in <b>Jupyter Notebooks</b>, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
+  - Data specifically pertains to commits, pull requests, pull request comments, and contributors.
+  - The data is structured into data frames using the <b>Pandas</b> library and then concatenated and appended into a list of finalized data frames.
+  - The <b>ExcelWriter</b> function is used to submit each data frame in the list to its own tab in an output spreadsheet.
+  - The spreadsheet is pathed locally to a synced Sharepoint folder.  When the script is ran, the file in Sharepoint is replaced with a file containing new data.
+  - The Python script is scheduled to run every morning through <b>JupyterLab</b>.
+- The spreadsheet is imported into <b>PowerBI</b> to perform the analysis of the project.
+  - The raw, unprocessed data is refined and transformed into a suitable format for analysis using <b>PowerQuery</b>.  For example, all the GitHub contributions are appended into a single table.
+  - A star schema <b>BI model</b> is built using refined tables, with the GitHub contributions table as the fact table.  Additional “transactional” tables are linked through specific relationships.
+  - Internal organizational case and project data are input into the dashboard using dataflows. This data will be used to compare the actual number of pull requests with the estimated number based on the eligible internal cases.
+  - <b>Visualizations</b> are created to provide unique insights and identify trends in the data.  Examples of the included visualizations are included in the “Conclusions” section below.
+- The developed dashboard is used to optimize team processes, operations, and performance.
 
 
 
-Data specifically pertains to commits, pull requests, pull request comments, and contributors.
-The data is structured into data frames using the Pandas library and then concatenated and appended into a list of finalized data frames.
-The ExcelWriter function is used to submit each data frame in the list to its own tab in an output spreadsheet.
-The spreadsheet is pathed locally to a synced Sharepoint folder.  When the script is ran, the file in Sharepoint is replaced with a file containing new data.
-The Python script is scheduled to run every morning through JupyterLab.
-The spreadsheet is imported into PowerBI to perform the analysis of the project.
-The raw, unprocessed data is refined and transformed into a suitable format for analysis using PowerQuery.  For example, all the GitHub contributions are appended into a single table.
-A star schema BI model is built using refined tables, with the GitHub contributions table as the fact table.  Additional “transactional” tables are linked through specific relationships.
-Internal organizational case and project data are input into the dashboard using dataflows. This data will be used to compare the actual number of pull requests with the estimated number based on the eligible internal cases.
-Visualizations are created to provide unique insights and identify trends in the data.  Examples of the included visualizations are included in the “Conclusions” section below.
-The developed dashboard is used to optimize team processes, operations, and performance.
+
+
+
+
 
 
 
