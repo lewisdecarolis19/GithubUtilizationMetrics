@@ -15,12 +15,25 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
   -  Is code actually being merged when finallized?
   -  What type of contributions does the team need to improve? For example, are we good at leaving reviews on code but bad about committing new code after a review?
   -  Is the lack of contribution to the repository because of a training or process gap?  How can we fill this gap and support eachother better as a team?
-     
-<h2>Process and Tools</h2> 
 
-  -  To successfully complete this project, I employ a Python script that interacts with the GitHub Rest API.  By iterating through four endpoints over two repositories, I extract unstructured data pertaining to commits, pull requests, and review comments.  The data is then compiled into structured dataframes, and the output is eventually transferred to an Excel spreadsheet.  This spreadsheet loads into PowerBI where the data goes through an in depth process of transformation and manipulation using PowerQuery.  Utilizing clean data,
-  -   
-<br />
+<h2>Process and Tools</h2>
+- htosklrgNrel 
+     
+<h2>Process and Tools</h2>
+
+
+A Python script, developed in Jupyter Notebooks, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
+Data specifically pertains to commits, pull requests, pull request comments, and contributors.
+The data is structured into data frames using the Pandas library and then concatenated and appended into a list of finalized data frames.
+The ExcelWriter function is used to submit each data frame in the list to its own tab in an output spreadsheet.
+The spreadsheet is pathed locally to a synced Sharepoint folder.  When the script is ran, the file in Sharepoint is replaced with a file containing new data.
+The Python script is scheduled to run every morning through JupyterLab.
+The spreadsheet is imported into PowerBI to perform the analysis of the project.
+The raw, unprocessed data is refined and transformed into a suitable format for analysis using PowerQuery.  For example, all the GitHub contributions are appended into a single table.
+A star schema BI model is built using refined tables, with the GitHub contributions table as the fact table.  Additional “transactional” tables are linked through specific relationships.
+Internal organizational case and project data are input into the dashboard using dataflows. This data will be used to compare the actual number of pull requests with the estimated number based on the eligible internal cases.
+Visualizations are created to provide unique insights and identify trends in the data.  Examples of the included visualizations are included in the “Conclusions” section below.
+The developed dashboard is used to optimize team processes, operations, and performance.
 
 
 <h2>Program walk-through:</h2>
