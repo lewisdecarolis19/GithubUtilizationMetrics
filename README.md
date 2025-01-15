@@ -17,13 +17,10 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
   -  Is the lack of contribution to the repository because of a training or process gap?  How can we fill this gap and support eachother better as a team?
 
 <h2>Process and Tools</h2>
-- htosklrgNrel 
-     
-<h2>Process and Tools</h2>
-* jasjfadfqv
+  - A Python script, developed in Jupyter Notebooks, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
 
 
-A Python script, developed in Jupyter Notebooks, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
+
 Data specifically pertains to commits, pull requests, pull request comments, and contributors.
 The data is structured into data frames using the Pandas library and then concatenated and appended into a list of finalized data frames.
 The ExcelWriter function is used to submit each data frame in the list to its own tab in an output spreadsheet.
@@ -35,6 +32,7 @@ A star schema BI model is built using refined tables, with the GitHub contributi
 Internal organizational case and project data are input into the dashboard using dataflows. This data will be used to compare the actual number of pull requests with the estimated number based on the eligible internal cases.
 Visualizations are created to provide unique insights and identify trends in the data.  Examples of the included visualizations are included in the “Conclusions” section below.
 The developed dashboard is used to optimize team processes, operations, and performance.
+
 
 
 <h2>Program walk-through:</h2>
