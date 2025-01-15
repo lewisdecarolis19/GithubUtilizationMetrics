@@ -4,6 +4,7 @@
 The objective of this project is to assess the effectiveness of utilizing GitHub as the team's code repository and review tool.  The team has established protocols that require the submission of pull requests and subsequent code reviews under specific circumstances.  This analysis aims to compare the expected number of pull requests and internal cases requiring such submissions, against the actual number of pull requests and reviews conducted.  Ultimately, this project seeks to evaluate the team's adherence to the established processes for code repository usage and code review practices.
 
 <h2>Project Questions</h2> 
+*trhy
   -  How has the team's usage of GitHub changed over time?  What is the trend over the past ___ quarters or years? Is there a reason for this?
   -  Are we utilizing Github as our code review tool as intended, or are we defaulting to other tools and methods?
   -  How does the number of internal cases requiring a code review submission compare to the actual number of pull requests? Which cases didn't have a pull request that should have?
