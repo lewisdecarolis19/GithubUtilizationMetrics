@@ -19,7 +19,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 
 <h2>Process and Tools</h2>
 
-- A <b>Python</b> script, developed in <b>Jupyter Notebooks</b>, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
+- A <b><fontcolor=red>Python</fontcolor></b> script, developed in <b>Jupyter Notebooks</b>, interacts with the GitHub Rest API to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
   - Data specifically pertains to commits, pull requests, pull request comments, and contributors.
   - The data is structured into data frames using the <b>Pandas</b> library and then concatenated and appended into a list of finalized data frames.
   - The <b>ExcelWriter</b> function is used to submit each data frame in the list to its own tab in an output spreadsheet.
