@@ -32,7 +32,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 3. The developed dashboard is used to optimize team processes, operations, and performance.
 
 
-<h2>Results and Conclusions 📈</h2>
+<h2>Results and Recommendations 🚀</h2>
 
 
 <h2>Project Files 📄</h2>
@@ -40,10 +40,12 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 -  [Python Script](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/Get_GitHub_Data.py)
 -  [Power Query ETL](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/Power%20Query%20ETL/README.md)
 -  [PowerBI Model](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/PowerBI%20Model/README.md)
+-  [PowerBI Dashboard](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/tree/main/PowerBI%20Dashboard)
 
-<h2>References</h2>
+<h2>References ✅</h2>
 
-
+- [Medium Article - Base Python Code](https://towardsdatascience.com/introduction-to-git-data-extraction-and-analysis-in-python-e7e2bf9b4606)
+- [GitHub REST API Documentation](https://docs.github.com/en/rest?apiVersion=2022-11-28)
 
 
 
