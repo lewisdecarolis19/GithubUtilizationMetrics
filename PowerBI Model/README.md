@@ -11,7 +11,7 @@
 <h2>Design 🧩</h2>
 
 <p align="center">
-<img src="https://github.com/lewisdecarolis19/images/blob/main/GitHubModel1.png" height="80%" width="80%" alt="Data Model"/>
+<img src="https://github.com/lewisdecarolis19/images/blob/main/GitHubModel2.png" height="80%" width="80%" alt="Data Model Design"/>
 <br />
 <br />
 </p>
