@@ -48,14 +48,6 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 - [GitHub REST API Documentation](https://docs.github.com/en/rest?apiVersion=2022-11-28)
 
 
-
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-</p>
 <!--
  ```diff
 - text in red
