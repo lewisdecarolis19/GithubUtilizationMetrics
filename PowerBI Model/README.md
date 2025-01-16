@@ -19,7 +19,7 @@
 <h2>Table Relationships 🔑</h2>
 
 <p align="center">
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/lewisdecarolis19/images/blob/main/GitHubModel3.png" height="80%" width="80%" alt="Table Relationships"/>
 <br />
 <br />
 </p>
