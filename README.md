@@ -37,9 +37,11 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 
 <h2>Project Files 📄</h2>
 
+-  [Python script](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/Get_GitHub_Data.py)
+-  
 
 <h2>References</h2>
-[Python script](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/Get_GitHub_Data.py)
+
 
 
 
