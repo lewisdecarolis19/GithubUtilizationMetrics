@@ -7,7 +7,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
   
  
   -  How has the team's usage of GitHub changed over time?  What is the trend over the past ___ quarters or years? Is there a reason for this? 
-  -  Are we utilizing Github as our code review tool as intended?
+  -  Are we utilizing Github for code reviews as intended?
   -  How does the number of internal cases requiring a code review submission compare to the actual number of pull requests? Which cases didn't have a pull request that should have?
   -  Are there certain types of internal cases that are more susceptible to not receiving a pull request?  Why is this?
   -  How many commits are pushed per pull request, on average? Are we commiting new code after it has been reviewed by the team?
@@ -16,9 +16,11 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
   -  What type of contributions does the team need to improve? For example, are we good at leaving reviews on code but bad about committing new code after a review?
   -  Is the lack of contribution to the repository because of a training or process gap?  How can we fill this gap and support eachother better as a team?
 
+<h2>Solution ⚡️ </h2>
+
 <h2>Process and Tools 🔨 </h2>
 
-1. A [Python script](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/Get_GitHub_Data.py), developed in <b>Jupyter Notebooks</b>, interacts with the <b>GitHub Rest API</b> to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
+1. A [Python script](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/Get_GitHub_Data.py), developed in <b>Jupyter Notebooks</b>, interacts with the [GitHub REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28) to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
     - Data specifically pertains to commits, pull requests, pull request comments, and contributors.
     - The data is structured into data frames using the <b>Pandas</b> library and then concatenated and appended into a list of finalized data frames.
     - The <b>ExcelWriter</b> function is used to submit each data frame in the list to its own tab in an output spreadsheet.
@@ -41,12 +43,6 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 -  [Power Query ETL](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/Power%20Query%20ETL/README.md)
 -  [PowerBI Model](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/PowerBI%20Model/README.md)
 -  [PowerBI Dashboard](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/tree/main/PowerBI%20Dashboard)
-
-<h2>References ✅</h2>
-
-- [Medium Article - Base Python Code](https://towardsdatascience.com/introduction-to-git-data-extraction-and-analysis-in-python-e7e2bf9b4606)
-- [GitHub REST API Documentation](https://docs.github.com/en/rest?apiVersion=2022-11-28)
-
 
 <!--
  ```diff
