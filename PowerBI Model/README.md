@@ -2,6 +2,14 @@
 
 <h2>Summary 💡</h2>
 
+The PowerBI model includes nine tables:
+
+*TEWTYe
+
+- 
+- Set 
+
+
 <p align="center">
 <img src="https://github.com/lewisdecarolis19/images/blob/main/GitHubModel1.png" height="80%" width="80%" alt="Data Model"/>
 <br />
