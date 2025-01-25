@@ -54,6 +54,14 @@ Transaction Tables:
 <br />
 </p>
 
+<h4>Challenge</h4>
+
+The main challenge in designing this model was enabling it to analyze both "summary" and "transactional" data.  Integrating these two types of reporting into a single model introduced ambiguity.  For instance, the Dates dimension table needed to have a one-to-many relationship with both the Pull Requests and Cases/Projects tables.  This created a "circular flow" in the model, resulting in errors and ambiguity in data filtration.  Similar issues arose when establishing relationships for other transaction tables.
+
+<h4>Solution</h4>
+
+
+
 <h2>Table Relationships 🔑</h2>
 
 <p align="center">
