@@ -28,7 +28,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
     - The Python script is scheduled to run every morning through <b>JupyterLab</b>.
 2. The spreadsheet is imported into <b>PowerBI</b> to perform the analysis of the project.
     - The raw, unprocessed data is refined and transformed into a suitable format for analysis using <b>PowerQuery</b>.  For example, all the GitHub contributions are appended into a single table.
-    - A star schema <b>BI model</b> is built using refined tables, with the GitHub contributions table as the fact table.  Additional “transactional” tables are linked through specific relationships.
+    - A star schema [PowerBI model](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/tree/main/PowerBI%20Model) is built using refined tables, with the GitHub contributions table as the fact table.  Additional “transactional” tables are linked through specific relationships.
     - Internal organizational case and project data are input into the dashboard using dataflows. This data will be used to compare the actual number of pull requests with the estimated number based on the eligible internal cases.
     - <b>Visualizations</b> are created to provide unique insights and identify trends in the data.  Examples of the included visualizations are included in the “Conclusions” section below.
 3. The developed dashboard is used to optimize team processes, operations, and performance.
@@ -36,6 +36,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 
 <h2>Results and Recommendations 🚀</h2>
 
+🚧 In Process 🚧
 
 <h2>Project Files 📄</h2>
 
