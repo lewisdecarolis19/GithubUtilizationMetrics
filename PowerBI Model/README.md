@@ -6,7 +6,7 @@ The PowerBI model allows users to easily and accurately slice and dice data.  It
 
 The BI model consists of nine tables.  These tables include a:
 
-- Set of four tables containing GitHub data imported into PowerBI by the spreadsheet
+- Set of four tables containing GitHub data extracted with a [Python script](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/Get_GitHub_Data.py)
   - Pull Requests, PR Comments, Commits, and Contributors 
 - GH Contributions table that merges and appends the aforementioned four tables
   - This table is used to easily visualize the repository summary data
@@ -40,7 +40,7 @@ Dimension Tables:
 - Contributors
 - Repositories
 
-Transactional tables are also included in the model.  These tables contain the complete, transactional repository data extracted from GitHub using the Python script.  They are not part of the star schema design because ambiguity could otherwise be introduced into the model.
+Transactional tables are also included in the model.  These tables contain the complete, transactional repository data extracted from GitHub using the [Python script](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/Get_GitHub_Data.py).  They are not part of the star schema design because ambiguity could otherwise be introduced into the model.
 
 Transaction Tables:
 - Pull Requests
