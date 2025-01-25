@@ -18,6 +18,8 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 
 <h2>Solution ⚡️ </h2>
 
+
+
 <h2>Process and Tools 🔨 </h2>
 
 1. A [Python script](https://github.com/lewisdecarolis19/GithubUtilizationMetrics/blob/main/Get_GitHub_Data.py), developed in <b>Jupyter Notebooks</b>, interacts with the [GitHub REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28) to gather repository data in JSON format.  The script handles the default pagination of the API, and nested for loops are used to iterate through 2 repositories and 4 endpoints.
@@ -36,7 +38,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 
 <h2>Results and Recommendations 🚀</h2>
 
-🚧 In Process 🚧
+🚧 In Progress 🚧
 
 <h2>Project Files 📄</h2>
 
