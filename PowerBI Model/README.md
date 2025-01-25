@@ -2,7 +2,7 @@
 
 <h2>Summary 💡</h2>
 
-The PowerBI model allows users to easily and accurately slice and dice data.  It consists of tables that have relationships to one another, and these relationships are key to having a dynamic dashboard and data integrity.  The model was complex to design because I wanted to report on "summary data" coming straight out of GitHub.  This consists of metrics measuring the number of pull requests over time and the number of comments per contributor, for example.  However, I also wanted to visualize details.  For example, I wanted to create a relationship between specific cases and matching pull requests.   Mixing "summary" and "detail" data and avoiding redundancies were challenges that I faced when designing this model.  Please read the following sections to see how I solved this problem!  
+The PowerBI model allows users to easily and accurately slice and dice data.  It consists of tables that have relationships to one another, and these relationships are key to having a dynamic dashboard and data integrity.  The model was complex to design because I wanted to report on "summary data" coming straight out of GitHub.  This consists of metrics measuring the number of pull requests over time and the number of comments per contributor, as examples.  However, I also wanted to visualize details.  For example, I wanted to create a relationship between specific cases and matching pull requests.   Mixing "summary" and "detail" data and avoiding redundancies were challenges that I faced when designing this model.  Please read the following sections to see how I solved this problem!  
 
 The PowerBI model consists of nine tables.  These tables include a:
 
