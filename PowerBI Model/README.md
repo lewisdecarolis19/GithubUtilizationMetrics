@@ -62,6 +62,7 @@ The main challenge in designing this model was enabling it to analyze both "summ
 
 
 
+
 <h2>Table Relationships 🔑</h2>
 
 <p align="center">
