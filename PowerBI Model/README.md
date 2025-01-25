@@ -2,7 +2,7 @@
 
 <h2>Summary 💡</h2>
 
-The PowerBI model allows users to easily and accurately slice and dice data.  It consists of tables that have relationships to one another, and these relationships are key to having a dynamic dashboard and data integrity.  The model was complex to design because I wanted to report on "summary data" coming straight out of GitHub.  This consists of metrics measuring the number of pull requests over time and the number of comments per contributor, as examples.  However, I also wanted to visualize details.  For example, I wanted to create a relationship between specific cases and matching pull requests.   Mixing "summary" and "detail" data and avoiding redundancies were challenges that I faced when designing this model.  Please read the following sections to see how I solved this problem!  
+The PowerBI model allows users to easily and accurately slice and dice data.  It consists of tables that have relationships to one another, and these relationships are key to having a dynamic dashboard and data integrity.  The model was complex to design because I wanted to report on "summary data" coming straight out of GitHub.  This consists of metrics measuring the number of pull requests over time and the number of comments per contributor, as examples.  However, I also wanted to visualize details.  For example, I wanted to create a relationship between specific cases and matching pull requests.   Mixing "summary" and "detail" data and avoiding ambiguity were challenges that I faced when designing this model.  Please read the following sections to see how I solved this problem!  
 
 The BI model consists of nine tables.  These tables include a:
 
@@ -26,7 +26,27 @@ The BI model consists of nine tables.  These tables include a:
 
 <h2>Design 🧩</h2>
 
+A significant portion of the model was designed in star schema format.  This structure includes fact tables that contain the primary data for reporting, along with dimension tables that hold attributes related to the fact tables.  The dimension tables are utilized in the dashboard to enable accurate drill-downs and data filtering based on these attributes.
 
+Fact Tables:
+- GH Contributions
+  - Reports on summary metrics from the GitHub repositories 
+  - Pull requests, PR comments, commits, and merges appended into one table
+  - A categorical field seperates all of the records by contribution type
+- Cases and Projects
+
+Dimension Tables:
+- Dates
+- Contributors
+- Repositories
+
+Transactional tables are also included in the model.  These tables contain the complete, transactional repository data extracted from GitHub using the Python script.  They are not part of the star schema design because ambiguity could otherwise be introduced into the model.
+
+Transaction Tables:
+- Pull Requests
+- PR Comments
+- Commits
+- Cases/Projects vs Pull Requests
 
 <p align="center">
 <img src="https://github.com/lewisdecarolis19/images/blob/main/GitHubModel2.png" height="80%" width="80%" alt="Data Model Design"/>
