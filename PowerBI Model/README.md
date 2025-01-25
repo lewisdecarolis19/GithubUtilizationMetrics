@@ -26,7 +26,7 @@ The BI model consists of nine tables.  These tables include a:
 
 <h2>Design 🧩</h2>
 
-A significant portion of the model was designed in star schema format.  This structure includes fact tables that contain the primary data for reporting, along with dimension tables that hold attributes related to the fact tables.  The dimension tables are utilized in the dashboard to enable accurate drill-downs and data filtering based on these attributes.
+A significant portion of the model is designed in star schema format.  This structure includes fact tables that contain the primary data for reporting, along with dimension tables that hold attributes related to the fact tables.  The dimension tables are utilized in the dashboard to enable accurate drill-downs and data filtering based on these attributes.
 
 Fact Tables:
 - GH Contributions
@@ -60,7 +60,7 @@ The main challenge in designing this model was enabling it to analyze both "summ
 
 <h4>Solution</h4>
 
-
+A new table called GH Contributions was created to address this challenge. This table merges and appends data from Pull Requests, Commits, and PR Comments into a single table. A categorical variable was introduced to indicate which grouping each record belonged to. Significant data transformation was performed, including adjusting the primary keys of the records. This table provided a straightforward method for reporting summary data from the repositories. It related easily to the dimension tables without needing a connection to the other fact table. This allowed me to report summary data accurately while including details between Pull Requests and Cases/Projects, thus avoiding any ambiguity in the model.
 
 
 <h2>Table Relationships 🔑</h2>
