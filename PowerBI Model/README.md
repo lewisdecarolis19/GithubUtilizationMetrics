@@ -8,7 +8,7 @@ The PowerBI model consists of nine tables.  These tables include a:
 
 - Set of four tables containing GitHub data imported into PowerBI by the spreadsheet
   - Pull Requests, PR Comments, Commits, and Contributors 
-- GH Contributions table that merges appends the aforementioned four tables
+- GH Contributions table that merges and appends the aforementioned four tables
   - This table is used to easily visualize the repository summary data
 - Cases and Projects table where the data is obtained via an internal dataflow
 - Dates table used for analyzing data over time
