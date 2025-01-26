@@ -18,7 +18,7 @@ The objective of this project is to assess the effectiveness of utilizing GitHub
 
 <h2>Solution ⚡️ </h2>
 
-To achieve the objective, a dashboard was developed in PowerBI showcasing relevant and insightful metrics that impact the code review process. Data was extracted from the team’s repositories using a Python script interfacing with the GitHub Rest API. This data formed the basis of the dashboard, followed by thorough cleaning and modeling to prepare structured data for visualization. The dashboard enables the team to conduct quarterly reviews of the adherence to the code review process and identify actions for improvement. 
+To achieve the objective, a dashboard was developed in PowerBI showcasing relevant and insightful metrics that impact the code review process. Data was extracted from the team’s repositories using a Python script interfacing with the GitHub Rest API. This data formed the basis of the dashboard. Thorough data cleansing and modeling was performed to prepare the data into a structured format ready for visualization and analysis. The dashboard enables the team to conduct quarterly reviews of the adherence to the code review process and identify actions for improvement. 
 
 <h2>Process and Tools 🔨 </h2>
 
